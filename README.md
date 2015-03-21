@@ -20,7 +20,7 @@ In the view where you want to add the component you only need to follow the next
   ```html
     <script src="~/Scripts/webcomponents.min.js"></script>
     <link rel="import" href="~/Element/LoginElement/login.html" />
-  
+  ```
   <li>Then add the component in your view</li>
   ```html
     <login-azuread domain="organizer.onmicrosoft.com" clientid="b15b25b3-01c6-489e-adb3-578bfb87c4cb">
