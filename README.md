@@ -16,19 +16,19 @@ for these application and that´s all.
 In the view where you want to add the component you only need to follow the next steps:
 
 <ul>
-  <li>Add the link to the component and webcomponents.min.js</li>
+  <li>Add both the link to the component in the Element/LoginElement folder and webcomponents.min.js</li>
   
-  ```
+  ```html
     <script src="~/Scripts/webcomponents.min.js"></script>
     <link rel="import" href="~/Element/LoginElement/login.html" />
   ```
   <li>Then add the component in your view</li>
   
-  `
-    <login-azuread domain="organizer.onmicrosoft.com" clientid="b15b25b3-01c6-489e-adb3-578bfb87c4cb">
+  ```html
+    <login-azuread domain="<tenantdomainhere>" clientid="<clientidhere>">
     </login-azuread>
-  `
+  ```
   <li>You only have to set the domain of your tenant and clientid that you have got registering the app</li>
 </ul>
 
-After that, your login component will be running.
+After that, your login component will be running succesfully.
