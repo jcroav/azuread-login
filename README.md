@@ -33,7 +33,7 @@ After that, your login component will be running succesfully.
 
 # Can I Style the Web Component?
   
-  Obviously you can, You only have to give css style in yout style sheet file to the next class:
+  Obviously you can, You only have to give css style in your style sheet file to the next class:
   
   - loginad-name to style the username when you are logged
   - logoutad-a to give style to the login hyperlink
