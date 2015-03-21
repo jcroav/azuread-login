@@ -1,0 +1,7 @@
+﻿{
+  "name": "ExampleJADAL",
+  "version": "1.0.0",
+  "description": "ExampleJADAL",
+  "main": "gruntfile.js",
+  "license": "ISC"
+}
