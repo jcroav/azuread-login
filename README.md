@@ -24,9 +24,11 @@ In the view where you want to add the component you only need to follow the next
   ```
   <li>Then add the component in your view</li>
   
-  ```
+  `
     <login-azuread domain="organizer.onmicrosoft.com" clientid="b15b25b3-01c6-489e-adb3-578bfb87c4cb">
     </login-azuread>
-  ```
+  `
   <li>You only have to set the domain of your tenant and clientid that you have got registering the app</li>
 </ul>
+
+After that, your login component will be running.
