@@ -15,20 +15,27 @@ for these application and that´s all.
 
 In the view where you want to add the component you only need to follow the next steps:
 
-<ul>
-  <li>Add both the link to the component in the Element/LoginElement folder and webcomponents.min.js</li>
+- Add both the link to the component in the Element/LoginElement folder and webcomponents.min.js
   
   ```html
     <script src="~/Scripts/webcomponents.min.js"></script>
     <link rel="import" href="~/Element/LoginElement/login.html" />
   ```
-  <li>Then add the component in your view</li>
+- Then add the component in your view
   
   ```html
     <login-azuread domain="<tenantdomainhere>" clientid="<clientidhere>">
     </login-azuread>
   ```
-  <li>You only have to set the domain of your tenant and clientid that you have got registering the app</li>
-</ul>
+- You only have to set the domain of your tenant and clientid that you have got registering the app
 
 After that, your login component will be running succesfully.
+
+# Can I Style the Web Component?
+  
+  Obviously you can, You only have to give css style in yout style sheet file to the next class:
+  
+  - loginad-name to style the username when you are logged
+  - logoutad-a to give style to the login hyperlink
+  - loginad-a to give style to the logout hyperlink
+  
